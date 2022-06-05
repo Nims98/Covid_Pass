@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mui/icons-material": "^5.8.2",
+    "@mui/material": "^5.8.2",
+    "formik": "^2.2.9",
+    "formik-material-ui": "^4.0.0-alpha.2",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0"

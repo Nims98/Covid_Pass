@@ -50,10 +50,10 @@ const initVals: formVals = {
             NIC: "",
             email: "",
             address: "",
-            emergency: 0,
-            contact: 0,
+            emergency: "",
+            contact: "",
             gender: "",
-            age: 0,
+            age: "",
             password: "",
             location: "",
             confirmPassword: "",};
@@ -121,8 +121,8 @@ const initVals: formVals = {
               <Container
                 sx={{
                 width: {
-                  lg: 800, 
-                  xl: 1000,
+                  lg: 950, 
+                  xl: 950,
                   },
                   bgcolor: '#EBEBEB',
                   borderRadius: 4,
@@ -204,6 +204,7 @@ const initVals: formVals = {
                           />
                         </Box>
 
+                        <Box sx={{ display: "flex", justifyContent: "space-between", flexDirection: "row" }}>
                         <Box
                           sx={{
                             display: "flex",
@@ -211,26 +212,23 @@ const initVals: formVals = {
                             mt: 3,
                             mb: 1,
                           }}>
-                          <Typography sx={{ ml: 3, mr: 2 }}>Gender :</Typography>
-                          <Typography sx={{ mr: 3 }}>
+                          <Typography sx={{ ml: 0, mr: 2 }}>Gender :</Typography>
+                          <Typography sx={{ mr: 2 }}>
                             Male
                             <Field type="radio" value="Male" name="gender" />
                           </Typography>
-                          <Typography>
+                          <Typography sx={{ mr: 2 }}>
                             Female
                             <Field type="radio" value="Female" name="gender" />
                           </Typography>
-                        </Box>
-
-                        <Box sx={{ display: "flex", justifyContent: "space-between", flexDirection: "row" }}>
-                          <Field sx={{ width: 100 }} name="age" component={TextField} select label="Age">
+                          <Field sx={{ width: 170 }} name="age" component={TextField} select label="Age">
                             {arr.map((age) => (
                               <MenuItem key={age} value={age}>
                                 {age}
                               </MenuItem>
                             ))}
                           </Field>
-
+                        </Box>
                           <Field
                             sx={{
                               minWidth: 420,

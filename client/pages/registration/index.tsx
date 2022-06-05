@@ -20,7 +20,7 @@ import colors from "../../Config/colors";
 
 const theme = createTheme();
 
-const LoginForm = () => {
+const LoginForm: React.FC<{}> = () => {
   const [isSignUp, setisSignUp] = useState(false);
   const arr = Array.from({ length: 50 }, (_, i) => i + 1);
   const [ages, setAges] = useState(arr);
@@ -32,7 +32,31 @@ const LoginForm = () => {
   const ShowPassword = () => {
     setShowPassword((prevshowPassword) => !prevshowPassword);
   };
-
+interface formVals{
+   fullName: string;
+            NIC: string;
+            email: string;
+            address: string;
+            emergency: any;
+            contact: any;
+            gender: string;
+            age: any;
+            password: string;
+            location: string;
+            confirmPassword: string;
+}
+const initVals: formVals = { 
+            fullName: "",
+            NIC: "",
+            email: "",
+            address: "",
+            emergency: 0,
+            contact: 0,
+            gender: "",
+            age: 0,
+            password: "",
+            location: "",
+            confirmPassword: "",};
   return (
     <Fade in>
       <div
@@ -41,21 +65,9 @@ const LoginForm = () => {
           display: "flex",
         }}>
         <Formik
-          initialValues={{
-            fullName: "",
-            NIC: "",
-            email: "",
-            address: "",
-            emergency: "",
-            contact: "",
-            gender: "",
-            age: "",
-            password: "",
-            location: "",
-            confirmPassword: "",
-          }}
-          validate={(values) => {
-            const errors = {};
+          initialValues={initVals}
+          validate={(values:formVals) => {
+            const errors :any= {};
             if (!isSignUp) {
               if (!values.fullName) {
                 errors.fullName = "Required";
@@ -114,7 +126,6 @@ const LoginForm = () => {
                   background: "#EBEBEB",
                   borderRadius: "10px",
                   padding: "20px",
-                  // width: "700px",
                 }}>
                 <CssBaseline />
                 <Grow in>

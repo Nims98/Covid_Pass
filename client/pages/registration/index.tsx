@@ -119,13 +119,14 @@ const initVals: formVals = {
           {({ submitForm }) => (
             <ThemeProvider theme={theme}>
               <Container
-                component="main"
-                minWidth="xs"
-                maxWidth="md"
-                style={{
-                  background: "#EBEBEB",
-                  borderRadius: "10px",
-                  padding: "20px",
+                sx={{
+                width: {
+                  lg: 800, 
+                  xl: 1000,
+                  },
+                  bgcolor: '#EBEBEB',
+                  borderRadius: 4,
+                  p: 3,
                 }}>
                 <CssBaseline />
                 <Grow in>
@@ -148,7 +149,7 @@ const initVals: formVals = {
                         <Typography component="h1" variant="h4">
                           Registration
                         </Typography>
-                        <Avatar fontSize="large" />
+                        <Avatar sx={{fontSize:'large'}} />
                       </Box>
                       <Box
                         sx={{

@@ -19,9 +19,9 @@
   </p>
 </p>
 <div align="center">
-
-</div>
 ![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white
+</div>
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 

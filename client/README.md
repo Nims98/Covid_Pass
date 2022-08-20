@@ -21,7 +21,7 @@
 <div align="center">
 
 </div>
-CockroachLabs	![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white
+![CockroachLabs](https://img.shields.io/badge/Cockroach%20Labs-6933FF?style=for-the-badge&logo=Cockroach%20Labs&logoColor=white
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 

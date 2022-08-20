@@ -1,27 +1,66 @@
-# CovidPass
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+<p align="center">
+  <h1 align="center">Digital and Authentic 
+    <br />
+    LockDown Pass Generator</h1>
+     <p align="center">
+   Covid-pass is an initiative foolproof pass generator system which facilitates remote pass requesting, approval as well as pass scanning and tracking. Based on the modern CockroachDB database, this system will provide different kinds of passes based on the use case.
+   
+  </p>
+  <p align="center">
+   Explore the project</a>
+    <br />
+    <br />
+    <a href="https://github.com/Madushan98/software_project_mobile"><strong>Mobile-app</strong></a>
+     ·
+    <a href="https://github.com/Nims98/Covid_Pass"><strong>Web - UI</strong></a>
+    ·
+    <a href="https://github.com/Madushan98/webApi-softwareProject"><strong>API</strong></a>
+  </p>
+</p>
+<div align="center">
 
-## Development server
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-## Code scaffolding
+* [Overview](#Overview)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+ * [Demo](#Demo)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [Sponsors](#Sponsors)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Overview
 
-## Build
+Travelling in the lock-down period either for employment (private sector), essential services, hospitalization, medical clinics, visiting the pharmacy, medical consultation, or personal urgent matters require a Pass that the authorities (Police) can recognize instantly. In the current scenario in the Sri Lanka, the passes are unique to each institution/ company, and the authorities are faced with difficulties in figuring out the authenticity of them. Also, obtaining a pass is a manual process which takes time and effort as well as compromises Covid safety protocols. As most people carry a mobile phone these days, if there was to be a digital pass that can be read through QR code reader, this process could be mandated efficiently without any delays.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+So, the purpose of this project is to generate a pass that is unique to each institution and the person who is carrying it. This project consists of an interface for the user to request the Pass, then the request can be administered at different positions in the institution, where finally the Pass will be generated. The generated Pass upon approval is conveyed to a central database and users can use the pass through the QR code generated. Then the authorities such as police or security officers can use the mobile app to scan the QR code and verify the pass instantly. Additionally, the travelling history of the pass will be tracked through the scanning points which will be very useful for the scenarios such as Covid cluster identification.
 
-## Running unit tests
+<!-- GETTING STARTED -->
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Demo 
+### Frontend ###
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Backend ###
 
-## Further help
+### Mobile app ###
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Roadmap ##
+Covid-pass can be extended to 
+
+## Contributing
+
+How to contribute:
+- Star this project on GitHub.
+- Report bugs or suggest features by creating new issues
+- Submit pull requests
+
+## Sponsors
+
+This project was started in fulfilment of the 5th semester module "Software project" at the Faculty of Engineering, University of Ruhuna, Hapugala, Galle, Sri Lanka.

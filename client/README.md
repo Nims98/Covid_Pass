@@ -19,7 +19,7 @@
   </p>
 </p>
 <div align="center">
-![Tests on Linux, MacOS and Windows](https://github.com/grandnode/grandnode2/actions/workflows/aspnetcore.yml/badge.svg)
+![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white)
 </div>
 
 <!-- TABLE OF CONTENTS -->

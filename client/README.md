@@ -23,7 +23,6 @@
 ![Docker](https://img.shields.io/docker/cloud/build/grandnode/grandnode2)
 ![License](https://img.shields.io/github/license/grandnode/grandnode2)
   ![Brave](https://img.shields.io/badge/Brave-FB542B?style=for-the-badge&logo=Brave&logoColor=white)
-<a href="https://docs.grandnode.com/"><img src="https://img.shields.io/badge/Docs-docs.grandnode.com-brightgreen"></a>
 </div>
 
 <!-- TABLE OF CONTENTS -->

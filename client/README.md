@@ -1,34 +1,20 @@
 <p align="center">
-  <a href="https://grandnode.com/">
-    <img src="https://grandnode.com/logo.png" alt="Logo">
-  </a>
-
-  <h1 align="center">FREE, FAST, FLEXIBLE, FEATURE-RICH
+  <h1 align="center">Digital and Authentic 
     <br />
-    OPEN-SOURCE E-COMMERCE PLATFORM</h1>
+    LockDown Pass Generator</h1>
      <p align="center">
-    GrandNode is an intuitive e-Commerce platform that enables the flexible development of online stores. <br />
-Based on the modern MongoDB database, a fully free and open-source system allows you to support various business models: <br />
-  B2B, B2C, Multi-Store, Multi-Vendor, Multi-Tenant, Multi-Language, Multi-Currency. <br />
-Advanced personalization, scalability, speed, and high efficiency - these are features that effectively support your e-business management.
+   Covid-pass is an initiative foolproof pass generator system which facilitates remote pass requesting, approval as well as pass scanning and tracking. Based on the modern CockroachDB database, this system will provide different kinds of passes based on the use case.
+   
   </p>
   <p align="center">
-    <a href="https://grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme"><strong>Explore the project »</strong></a>
+   Explore the project</a>
     <br />
     <br />
-    <a href="https://demo.grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme">View Demo</a>
+    <a href="https://github.com/Madushan98/software_project_mobile"><strong>Mobile-app</strong></a>
+     ·
+    <a href="https://github.com/Nims98/Covid_Pass"><strong>Web - UI</strong></a>
     ·
-    <a href="https://github.com/grandnode/grandnode2/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/grandnode/grandnode2/issues">Request Feature</a>
-    ·
-    <a href="https://grandnode.com/boards/?utm_source=github&utm_medium=link&utm_campaign=readme">Visit forum</a>
-    ·
-    <a href="https://grandnode.com/grandnode-themes/?utm_source=github&utm_medium=link&utm_campaign=readme">Themes</a>
-    ·
-    <a href="https://grandnode.com/extensions/?utm_source=github&utm_medium=link&utm_campaign=readme">Integrations & Plugins</a>
-    ·
-    <a href="https://grandnode.com/premium-support-packages/?utm_source=github&utm_medium=link&utm_campaign=readme">Premium support</a>
+    <a href="https://github.com/Madushan98/webApi-softwareProject"><strong>API</strong></a>
   </p>
 </p>
 <div align="center">
